@@ -1,6 +1,7 @@
 import React from "react";
 import "./SocialMedia.scss";
 import {socialMediaLinks} from "../../portfolio";
+import leetcode from "../../assets/images/leetcode.png";
 
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
@@ -124,6 +125,18 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-kaggle"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.leetcode ? (
+        <a
+          href={socialMediaLinks.leetcode}
+          className="icon-button leetcode"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={leetcode} alt="LeetCode" className="leetcodeIcon"></img>
           <span></span>
         </a>
       ) : null}

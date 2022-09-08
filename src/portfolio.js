@@ -41,6 +41,7 @@ const socialMediaLinks = {
   facebook: "https://www.facebook.com/garvit.gupta.182940/",
   // codeforces: "https://codeforces.com/profile/gupta_garvit",
   // codechef: "https://www.codechef.com/users/gupta_garvit",
+  leetcode: "https://leetcode.com/garvitgupta2001/",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
